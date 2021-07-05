@@ -20,13 +20,50 @@ body{
 }
 .flexible-container{
     display: flex;
-    padding-bottom:200px;
+    padding-bottom:100px;
+    padding-top: 100px;
 }
 .banner-one{
-    background-image: url(images/sec1bgcake.png);
+    background-image: url(images/Untitled\ design\ \(4\).png);
     background-repeat: no-repeat;
 }
 .banner-two{
-    background-image: url(images/sec2bgcake.png);
+    background-image: url(images/Untitled\ design\ \(5\).png);
     background-repeat: no-repeat;
+}
+.explore{
+    text-align: center;
+    color: rgb(235, 57, 116);
+}
+button{
+    color: white;
+    font-weight: 700;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(palevioletred, lightpink );
+    background-repeat: no-repeat;
+}
+.item{
+    box-shadow: 10px 10px 30px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.blog-sub-heading{
+    color: palevioletred;
+    text-align: center;
+}
+.recipe{
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+   padding-left: 25px;
+   padding-right: 25px;
+    text-align: center;
+
+}
+footer{
+    text-align: center;
 }
