@@ -20,8 +20,13 @@ body{
 }
 .flexible-container{
     display: flex;
+    padding-bottom:200px;
 }
 .banner-one{
     background-image: url(images/sec1bgcake.png);
+    background-repeat: no-repeat;
+}
+.banner-two{
+    background-image: url(images/sec2bgcake.png);
     background-repeat: no-repeat;
 }
